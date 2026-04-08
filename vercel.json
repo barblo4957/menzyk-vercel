@@ -1,4 +1,51 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/o-nas.html",
+      "destination": "/o-nas",
+      "permanent": true
+    },
+    {
+      "source": "/oferta.html",
+      "destination": "/oferta",
+      "permanent": true
+    },
+    {
+      "source": "/kontakt.html",
+      "destination": "/kontakt",
+      "permanent": true
+    },
+    {
+      "source": "/wiadomosc.html",
+      "destination": "/wiadomosc",
+      "permanent": true
+    },
+    {
+      "source": "/galeria-nagrobki.html",
+      "destination": "/galeria-nagrobki",
+      "permanent": true
+    },
+    {
+      "source": "/galeria-schody.html",
+      "destination": "/galeria-schody",
+      "permanent": true
+    },
+    {
+      "source": "/galeria-porecze-i-balustrady.html",
+      "destination": "/galeria-porecze-i-balustrady",
+      "permanent": true
+    },
+    {
+      "source": "/galeria-pozostale.html",
+      "destination": "/galeria-pozostale",
+      "permanent": true
+    }
+  ]
 }
