@@ -1,0 +1,97 @@
+/* Motyw "ciemny, premium" — nadpisuje zmienne Webflow z menzyk-pl-6fafec.webflow.css.
+   Musi być ładowany po tym pliku, żeby wygrać w kaskadzie. */
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Paleta */
+  --bazalt: #14161A;
+  --antracyt: #1D2024;
+  --patyna: #B8763E;
+  --miedz-jasna: #D9955F;
+  --kosc: #F1EBE0;
+  --popiol: #8D8F86;
+
+  /* Bazowe kolory Webflow -> nowa paleta */
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-neutral-color--neutral-primary: var(--bazalt);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-neutral-color--neutral-secondary: var(--antracyt);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-neutral-color--neutral-inverse: var(--kosc);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-accent-color--accent-primary: var(--patyna);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-accent-color--accent-primary-hover: var(--miedz-jasna);
+
+  /* Tekst */
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---text-color--text-secondary: var(--popiol);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---text-color--text-on-accent-primary: var(--kosc);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---text-color--text-on-accent-secondary: var(--kosc);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---text-color--text-on-accent-tertiary: var(--kosc);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---text-color--text-accent-on-primary: var(--kosc);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---text-color--text-accent-on-primary-hover: #F1EBE099;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---text-color--text-accent-on-inverse: var(--patyna);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---text-color--text-accent-on-inverse-hover: #B8763E99;
+
+  /* Odcienie (tint) przeliczone z nowej palety, te same stopnie alpha co oryginał */
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-inverse-a10: #F1EBE01A;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-inverse-a20: #F1EBE033;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-inverse-a30: #F1EBE04D;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-inverse-a40: #F1EBE066;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-inverse-a50: #F1EBE080;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-inverse-a60: #F1EBE099;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-inverse-a70: #F1EBE0B3;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-inverse-a80: #F1EBE0CC;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-inverse-a90: #F1EBE0E6;
+
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-primary-a10: #14161A1A;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-primary-a20: #14161A33;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-primary-a30: #14161A4D;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-primary-a40: #14161A66;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-primary-a50: #14161A80;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-primary-a60: #14161A99;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-primary-a70: #14161AB3;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-primary-a80: #14161ACC;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--neutral-primary-a90: #14161AE6;
+
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--accent-primary-a10: #B8763E1A;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--accent-primary-a20: #B8763E33;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--accent-primary-a30: #B8763E4D;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--accent-primary-a40: #B8763E66;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--accent-primary-a50: #B8763E80;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--accent-primary-a60: #B8763E99;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--accent-primary-a70: #B8763EB3;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--accent-primary-a80: #B8763ECC;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---core-color-tint--accent-primary-a90: #B8763EE6;
+
+  /* Fonty */
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---font--heading-font: "Fraunces", serif;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1741945686926---font--body-font: "Public Sans", sans-serif;
+  --second-base: "Public Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+/* Etykieta materiału ("tabliczka znamionowa") */
+.label-mono {
+  display: inline-block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--patyna);
+  border: 1px solid var(--patyna);
+  padding: 0.25em 0.6em;
+  margin-bottom: 0.75em;
+}
+
+/* Siatka "Nasza oferta" — sztywne 3 kolumny na desktopie.
+   !important + media query: specyficzność selektora Webflow
+   (.grid-layout.desktop-4-column.tablet-2-column.mobile-portrait-1-column.grid-gap-sm)
+   jest wyższa niż pojedyncza klasa, więc bez tego przegrywa w kaskadzie. */
+@media screen and (min-width: 992px) {
+  .oferta-grid-3col {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
