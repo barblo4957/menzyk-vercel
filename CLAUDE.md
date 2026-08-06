@@ -57,6 +57,7 @@ Nawigacja globalna (`.nav`) jest identyczna na każdej podstronie — kopiowana 
 
 ## Pliki pomocnicze
 
+- `WORKFLOW.md` — opisuje jak pracować z gitem, trybami i subagentami w tym repo. Przeczytaj go przy starcie każdej sesji dotyczącej zmian w kodzie.
 - `rules.md` — szczegółowe zasady edycji/SEO/automatyzacji (uzupełnienie tego pliku, przenośne też do innych narzędzi AI np. Cursor).
 - `.claude/agents/` — wyspecjalizowani subagenci do konkretnych zadań w tym repo (zobacz opisy w każdym pliku).
 
